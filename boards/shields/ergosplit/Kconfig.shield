@@ -1,6 +1,6 @@
 config SHIELD_ERGOSPLIT_LEFT
-    def_bol $(shields_list_contains, ergosplit_left)
+    def_bool $(shields_list_contains,ergosplit_left)
 config SHIELD_ERGOSPLIT_RIGHT
-    def_bol $(shields_list_contains, ergosplit_right)
+    def_bool $(shields_list_contains,ergosplit_right)
 config SHIELD_ERGOSPLIT_DONGLE
-    def_bol $(shields_list_contains, ergosplit_dongle)
+    def_bool $(shields_list_contains,ergosplit_dongle)
